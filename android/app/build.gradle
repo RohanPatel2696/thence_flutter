@@ -25,7 +25,8 @@ if (flutterVersionName == null) {
 
 android {
     namespace = "com.rohanpatel.thence"
-    compileSdk = 34
+    compileSdk = flutter.compileSdkVersion
+    ndkVersion = flutter.ndkVersion
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
@@ -34,7 +35,7 @@ android {
 
     defaultConfig {
         applicationId = "com.rohanpatel.thence"
-        minSdk 24
+        minSdk = flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion
         versionCode 1
         versionName '1.0.0'

@@ -61,7 +61,7 @@ class PlayerScreen extends StatelessWidget {
                         Text(StringConst.lblInstantCrush, style: boldTextStyle(color: secondaryTextColor, size: AppTextSize.textSize34)),
                         Text(StringConst.lblDescription, style: secondaryTextStyle(size: AppTextSize.textSize16, color: secondaryTextColor)),
                         40.height,
-                        SizedBox(
+/*                        SizedBox(
                           height: 100,
                           child: AudioWaveform(
                             showActiveWaveform: true,
@@ -69,7 +69,7 @@ class PlayerScreen extends StatelessWidget {
                             width: context.width(),
                             samples: const [10.0, 20.0, 30.0],
                           ),
-                        ),
+                        ),*/
                         Container(
                           padding: const EdgeInsets.all(AppPadding.padding12),
                           decoration: boxDecorationWithRoundedCorners(borderRadius: radius(AppRadius.radius40)),
