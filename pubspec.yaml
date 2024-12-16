@@ -1,0 +1,41 @@
+name: thence
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  ## COMMON
+  cupertino_icons: ^1.0.6
+  nb_utils: ^7.0.7
+  cached_network_image: ^3.4.1
+  google_fonts: ^6.2.1
+  meta: ^1.12.0
+  equatable: ^2.0.5
+
+  ## AUDIO PLAYER
+  audioplayers: ^6.1.0
+  audio_visualizer: 1.0.2
+
+  ## STATE MANAGEMENT
+  flutter_bloc: ^8.1.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+   - assets/
+   - assets/icons/
+   - assets/images/
